@@ -1,0 +1,31 @@
+body {
+	background-color: #1f1f1f;
+	padding: 20px;
+}
+
+.slider {
+	position: relative;
+	height: 60vh;
+	width: 40vw;
+	border: 3px white dashed;
+	overflow-x: hidden;
+}
+
+.slider--wrapper {
+	position: relative;
+	top: 0;
+	left: 0%;
+	display: flex;
+	height: 100%;
+}
+
+.slider--item {
+	height: 100%;
+	width: 100%;
+}
+
+.slider--image {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
